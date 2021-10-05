@@ -22,16 +22,11 @@
   "main": "dist/index.js",
   "scripts": {
     "lint:fix": "eslint . --fix",
-    "prepare": "ncc build ./src/index.ts -o dist --source-map --license licenses.txt",
+    "prepare": "ncc build ./src/index.ts -o dist --source-map --license licenses.txt && husky install",
     "test": "jest --setupFiles dotenv/config",
     "all": "pnpm run lint && pnpm run prepare && pnpm run test",
     "ci:version": "pnpx changeset version",
     "ci:publish": "pnpx changeset publish"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
   },
   "lint-staged": {
     "**/**/*.{js,ts,vue,json}": [
@@ -50,7 +45,7 @@
     "cz-emoji": "^1.3.1",
     "dotenv": "^10.0.0",
     "eslint": "^7.32.0",
-    "husky": "~3.1.0",
+    "husky": "^7.0.0",
     "jest": "^27.1.1",
     "lint-staged": "^11.1.2",
     "ts-jest": "^27.0.5",
