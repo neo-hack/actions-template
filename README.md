@@ -1,7 +1,7 @@
 # @aiou/actions-template
 *a fork version of [typescript-action](https://github.com/actions/typescript-action), self use*
 
-[![pnpm](https://img.shields.io/pnpm/v/@aiou/actions-template)](https://github.com/spring-catponents/actions-template) [![GitHub](https://img.shields.io/pnpm/l/@aiou/actions-template)](https://github.com/spring-catponents/actions-template) [![stackblitz](https://img.shields.io/badge/%E2%9A%A1%EF%B8%8Fstackblitz-online-blue)](https://github.com/spring-catponents/actions-template)
+[![npm](https://img.shields.io/npm/v/@aiou/actions-template)](https://github.com/spring-catponents/actions-template) [![GitHub](https://img.shields.io/npm/l/@aiou/actions-template)](https://github.com/spring-catponents/actions-template) [![stackblitz](https://img.shields.io/badge/%E2%9A%A1%EF%B8%8Fstackblitz-online-blue)](https://github.com/spring-catponents/actions-template)
 
 [Edit on StackBlitz ⚡️](https://github.com/spring-catponents/actions-template)
 
