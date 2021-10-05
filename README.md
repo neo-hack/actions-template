@@ -5,11 +5,9 @@
 
 [Edit on StackBlitz ⚡️](https://github.com/spring-catponents/actions-template)
 
-Use this template to bootstrap the creation of a JavaScript action.:rocket:
+Use this template to bootstrap the creation of a Typescript action.:rocket:
 
 This template includes tests, linting, a validation workflow, publishing, and versioning guidance.
-
-If you are new, there's also a simpler introduction.  See the [Hello World JavaScript Action](https://github.com/actions/hello-world-javascript-action)
 
 ## features
 
