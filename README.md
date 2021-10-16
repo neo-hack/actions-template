@@ -17,6 +17,11 @@ This template includes tests, linting, a validation workflow, publishing, and ve
   
 ## development
 
+Setup environment(if actions rely on environment)
+
+1. copy `.env.sample` file to `.env`
+2. replace with real environment
+
 Most toolkit and CI/CD operations involve async operations so the action is run in an async function.
 
 ```javascript
