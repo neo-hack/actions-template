@@ -1,5 +1,11 @@
 # @aiou/actions-template
 
+## 0.3.0
+
+### Minor Changes
+
+- 6f0fc45: pnpm & vitest
+
 ## 0.2.0
 
 ### Minor Changes
